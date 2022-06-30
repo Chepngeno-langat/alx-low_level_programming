@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 /**
+ * displaying
+ * main : function
  * puts: displays text
  *
  * Return: The sum of the two parameters
