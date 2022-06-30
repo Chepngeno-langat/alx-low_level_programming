@@ -1,10 +1,7 @@
 #include <stdio.h>
 
 /**
- * displaying
- * main : function
- * puts: displays text
- *
+ * main - prints the string
  * Return: The sum of the two parameters
  */
 int main(void)
