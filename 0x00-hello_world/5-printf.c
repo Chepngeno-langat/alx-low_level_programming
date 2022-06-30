@@ -1,8 +1,7 @@
 #include <stdio.h>
-
-/**                                                           
- * main - prints the string                                    
- * Return: 0 if exited properly, non zero otherwise
+/**
+ * main - prints string
+ * Return: 0 when compiled correctly, otherwise non zero
  */             
 int main(void)
 {
