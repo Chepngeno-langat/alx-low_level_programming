@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * c code
+ * puts: displays text
+ *
+ * Return: The sum of the two parameters
  */
 int main(void)
 {
