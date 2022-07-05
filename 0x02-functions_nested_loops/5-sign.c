@@ -19,7 +19,7 @@ return (0);
 }
 else
 {
-_puchar('-');
+_putchar('-');
 return (0);
 }
 }
