@@ -22,5 +22,4 @@ _putchar((x % 10) + '0');
 i++;
 _putchar('\n');
 }
-_putchar('\n');
 }
