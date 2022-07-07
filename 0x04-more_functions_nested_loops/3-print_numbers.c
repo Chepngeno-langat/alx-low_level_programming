@@ -2,7 +2,6 @@
 
 /**
  * print_numbers -print single digit numbers
- * Return: 0
  */
 void print_numbers(void)
 {
@@ -14,6 +13,5 @@ while (i <= '9')
 _putchar(i);
 i++;
 }
-_putchar('\n');
-return (0);
+_putchar('\n')
 }
