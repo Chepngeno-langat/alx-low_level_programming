@@ -7,13 +7,12 @@
  */
 size_t listint_len(const listint_t *h)
 {
-const listint_t *curNode = h;
 int count = 0;
 
-while (curNode != NULL)
+while (h != NULL)
 {
-count += 1;
-curNode = curNode->next;
+count++;
+h = h->next;
 }
 return (count);
 }
