@@ -5,7 +5,6 @@
 /**
  * function that converts a binary number to an unsigned int
  * @b
- *
  * return: the converted number or 0
  */
 
@@ -29,9 +28,8 @@ return(0);
 }
 unsigned int binary_to_uint(const char *b)
 {
-unsigned int dec = 0;
-/*int i, x, n;*/
-int i = 0; rem;
+unsigned int sum = 0;
+int i, x, n;
 
 if (b == NULL)
 {
@@ -47,6 +45,7 @@ case '1':
 sum = sum + _pow(2, n);
 i++;
 break;
+
 case '0':
 sum = sum + 0;
 i++;
