@@ -9,7 +9,7 @@
  * return: the converted number or 0
  */
 
-/*int _pow(int x,int y)
+int _pow(int x,int y)
 {
 if(y < 0)
 {
@@ -26,7 +26,7 @@ x = x* _pow(x,y);
 return(x);
 }
 return(0);
-}*/
+}
 unsigned int binary_to_uint(const char *b)
 {
 unsigned int dec = 0;
@@ -39,14 +39,7 @@ return (0);
 }
 
 n = strlen(b) - 1;
-while (n != 0)
-{
-rem = n % 10;
-n /= 10;
-dec += rem * pow(2, i);
-++i;
-}
-/*for (x = 0, i = 0; n >= x; n--)
+for (x = 0, i = 0; n >= x; n--)
 {
 switch (b[i])
 {
@@ -61,7 +54,7 @@ break;
 default:
 return (0);
 }
-}*/
+}
 
 return (sum);
 }
